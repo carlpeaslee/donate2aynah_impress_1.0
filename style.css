@@ -1,6 +1,16 @@
 body {
-  background-color: honeydew;
-  color:midnightblue;
+  color:#f6f8e7;
+  background: url(http://aynah.coop/wp/wp-content/themes/act/img/overlay_diagonal_light.png)repeat;
+    background-image: url("http://aynah.coop/wp/wp-content/themes/act/img/overlay_diagonal_light.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #f6f8e7;
 }
 
 .step {
@@ -28,12 +38,14 @@ p, h1, img, ul, table {
   font-size: 300px;
   left: 50px;
   margin: 0;
-  top: 200px;
+  top: 168px;
+  font-family: futura;
+  color: #006aa6;
 }
 
 #arrow {
   width: 340px;
-  left: 225px;
+  left: 245px;
   top: 255px;
 
 }
@@ -71,10 +83,18 @@ p, h1, img, ul, table {
   margin-right: auto;
   font-size: 20px;
   width: 700px;
-  top: 10px;
-  color: white;
-  background-color: darkgray;
-  padding: 10px;
+  top: 420px;
+  color: #f6f8e7;
+  background-color: rgba(129, 185,215, .8);
+  padding: 30px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  line-height: 28px;
+
 }
 
 /*third slide*/
@@ -121,29 +141,59 @@ p, h1, img, ul, table {
   margin-right: auto;
   font-size: 30px;
   top: 30px;
-  color: white;
-  background-color: darkgray;
+  color: #f6f8e7;
+  background-color: rgba(129, 185,215, .8);
   padding: 20px;
   z-index: 2;
   width: 40%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
 }
 
 #futurePlans {
-  background-color: darkgray;
+  background-color: rgba(129, 185,215, .9);
   z-index: 2;
-  opacity: .8;
-  font-size: 24px;
-  left: 40%;
-  top: 60%;
-  padding-left: 30px;
-  padding-right: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 28px;
+  left: 45%;
+  top: 55%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 5px;
   line-height: 1.2em;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+
+}
+
+#futurePlans li {
+  margin-bottom: 7px;
 }
 
 h3 {
   margin-top: 50px;
   font-size: 30px;
   text-align: center;
+  background-color: rgba(129, 185,215, .9);
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  box-shadow: 4px 7px 26px -5px rgba(0,0,0,0.5);
+  width: 90%;
+  padding: 5px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
 }
 
 #vanText {
@@ -172,7 +222,7 @@ h3 {
 }
 
 #futurePic {
-  top:0;
+  top:-15px;
 }
 
 #giveNow {
@@ -195,7 +245,7 @@ h3 {
   -moz-box-shadow: 0px 1px 0px #666666;
   box-shadow: 0px 1px 0px #666666;
   font-family: Arial;
-  color: #ffffff;
+  color: #f6f8e7;
   font-size: 60px;
   padding: 20px 25px 20px 25px;
   border: solid #94e096 1px;
